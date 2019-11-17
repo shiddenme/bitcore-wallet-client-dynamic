@@ -1,0 +1,26 @@
+{
+  "name": "bitcore-wallet-client-dynamic",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dashpay/bitcore-wallet-client-dynamic",
+  "authors": ["BitPay Inc"],
+  "description": "Client for bitcore-wallet-service-dynamic",
+  "keywords": [
+    "dynamic",
+    "copay-dynamic",
+    "multisig",
+    "wallet",
+    "client",
+    "bitcore-dynamic"
+  ],
+  "ignore": [
+    "**/.*",
+    "lib",
+    "node_modules",
+    "Gruntfile.js",
+    "Makefile",
+    "index.js",
+    "test",
+    "Makefile"
+  ]
+}
