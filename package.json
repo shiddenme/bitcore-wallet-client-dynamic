@@ -2,7 +2,7 @@
   "name": "bitcore-wallet-client-dynamic",
   "description": "Client for bitcore-wallet-service-dynamic",
   "author": "BitPay Inc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "keywords": [
     "dynamic",
