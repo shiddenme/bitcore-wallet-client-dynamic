@@ -1,4 +1,4 @@
-# Bitcore-Dynamic Wallet Client
+# Bitcore Wallet Client Dynamic
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-wallet-client-dynamic.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-wallet-client-dynamic)
 [![Build Status](https://img.shields.io/travis/duality-solutions/bitcore-wallet-client-dynamic.svg?branch=master&style=flat-square)](https://travis-ci.org/duality-solutions/bitcore-wallet-client-dynamic)
@@ -9,8 +9,6 @@ The *official* client library for [bitcore-wallet-service-dynamic] (https://gith
 ## Description
 
 This package communicates with BWS [bitcore-dynamic wallet service](https://github.com/duality-solutions/bitcore-wallet-service-dynamic) using the REST API. All REST endpoints are wrapped as simple async methods. All relevant responses from BWS are checked independently by the peers, thus the importance of using this library when talking to a third party BWS instance.
-
-See [bitcore-wallet-dynamic] (https://github.com/duality-solutions/bitcore-wallet-dynamic) for a simple CLI wallet implementation that relays on BWS and uses bitcore-wallet-client-dynamic.
 
 ## Get Started
 

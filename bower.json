@@ -2,7 +2,7 @@
   "name": "bitcore-wallet-client-dynamic",
   "main": "index.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/dashpay/bitcore-wallet-client-dynamic",
+  "homepage": "https://github.com/duality-solutions/bitcore-wallet-client-dynamic",
   "authors": ["BitPay Inc"],
   "description": "Client for bitcore-wallet-service-dynamic",
   "keywords": [

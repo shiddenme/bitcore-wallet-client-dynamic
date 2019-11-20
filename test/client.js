@@ -15,14 +15,14 @@ var tingodb = require('tingodb')({
 
 var log = require('../lib/log');
 
-var Bitcore = require('@duality-solutions/dynamic-lib');
+var Bitcore = require('@duality-solutions/bitcore-lib-dynamic');
 var Bitcore_ = {
   btc: Bitcore,
   bch: require('bitcore-lib-cash'),
 };
 
 
-var BitcorePayPro = require('@duality-solutions/dynamic-payment-protocol');
+var BitcorePayPro = require('@duality-solutions/bitcore-payment-protocol-dynamic');
 
 var BWS = require('bitcore-wallet-service-dynamic');
 

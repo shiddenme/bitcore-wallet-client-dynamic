@@ -28668,7 +28668,7 @@ module.exports = errorSpec;
 
 },{}],179:[function(require,module,exports){
 /**
- * The official client library for bitcore-wallet-service.
+ * The official client library for bitcore-wallet-service-dynamic.
  * @module Client
  */
 
@@ -34791,7 +34791,7 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib found. ' + 
+    var message = 'More than one instance of bitcore-lib-dynamic found. ' + 
       'Please make sure that you are not mixing instances of classes of the different versions of bitcore.';
     console.warn(message);
   }
@@ -35386,8 +35386,8 @@ function Block(arg) {
   return this;
 }
 
-// https://github.com/bitcoin/bitcoin/blob/b5fa132329f0377d787a4a21c1686609c2bfaece/src/primitives/block.h#L14
-Block.MAX_BLOCK_SIZE = 1000000;
+// https://github.com/duality-solutions/dynamic/blob/master/src/policy/policy.h
+Block.MAX_BLOCK_SIZE = 3145728;
 
 /**
  * @param {*} - A Buffer, JSON string or Object
@@ -35654,7 +35654,7 @@ var Hash = require('../crypto/hash');
 var JSUtil = require('../util/js');
 var $ = require('../util/preconditions');
 
-var GENESIS_BITS = 0x1d00ffff;
+var GENESIS_BITS = 0x1d00ffff; // TODO: This is currently set to Bitcoins.
 
 /**
  * Instantiate a BlockHeader from a Buffer, JSON object, or Object with
