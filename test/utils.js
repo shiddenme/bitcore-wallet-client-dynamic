@@ -4,7 +4,7 @@ var _ = require('lodash');
 var chai = require('chai');
 var sinon = require('sinon');
 var should = chai.should();
-var Bitcore = require('@duality-solutions/dynamic-lib');
+var Bitcore = require('@duality-solutions/bitcore-lib-dynamic');
 
 var Utils = require('../lib/common/utils');
 
